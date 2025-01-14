@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Log</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-black">
+    <nav class="flex justify-between border-2 w-[1800px] h-[140px] ml-8 rounded-lg mt-1">
+        <img src="images/logo.svg" class="w-[150px] h-[150px]">
+        <div class="bg-orange-700 w-[1500px] h-[80px] rounded-full flex  mt-6">
+            <img src="images/profile.png" class="h-[80px] w-[80px] ml-1">
+            <div class="flex mt-4">
+                <a href="home.html"><img src="images/home.svg"class="w-[40px] h-[40px] ml-[1050px] "></a>
+                <a href="mylogs.html"><img src="images/logs.svg"class="w-[40px] h-[40px] ml-[50px]"></a>
+                <a href="inspirations.html"><img src="images/manager.svg"class="w-[40px] h-[40px] ml-[50px]"></a>
+                <a href="email.html"><img src="images/email.svg"class="w-[40px] h-[40px] ml-[50px]"></a>
+            </div>
+        </div>
+        <a href="travel.html"><button class="bg-white text-black w-24 h-12 rounded-lg text-xl font-semibold mr-6 mt-10">Back</button></a>
+    </nav>
+    <div class="border-2 w-[1800px] h-[800px] ml-8 rounded-lg mt-2">
+        <div class="ml-[500px] mt-12">
+            
+                <label class="text-white text-xl font-semibold">Public</label>
+                <input type="radio" name="rad">
+                <label class="text-white ml-4 text-xl font-semibold">Private</label>
+                <input type="radio" name="rad">
+            
+            
+        </div>
+
+        <div class="ml-[500px] mt-20 ">
+            <label class="text-white text-xl font-semibold ">Title : </label>
+            <input type="text"class=" w-[350px] h-12 rounded-lg ml-20"><br>
+            <div class="flex mt-2">
+            <label class="text-white text-xl font-semibold mt-6">Description : </label>
+            <textarea rows="5" cols="10" class=" w-[350px] h-32 rounded-lg ml-4 mt-4"></textarea>"></textarea></div><br>
+            <label class="text-white text-xl font-semibold" >Target Date : </label>
+            <input type="date" class="w-[350px] h-12 rounded-lg bg-gray-300 ml-3">
+        </div>
+
+        <div class="flex  mt-8 ml-10">
+            <div class="grid"><img src="images/camera.svg" class="bg-gray-300 w-[110px] h-[120px] rounded-full ml-40 ">
+            <p class="text-orange-600 ml-48 mt-2 text-xl font-semibold">Travel</p>
+            </div>
+            <div class="flex justify-between mr-8 mt-4 ml-96">
+                <a href="bali.html"><button class="bg-gray-200 w-32 h-12 rounded-lg">Update</button></a>
+                <a><button class="bg-gray-200 w-40 h-12 rounded-lg ml-8"> Mark as Complete</button></a>
+            </div>
+            <img src="images/delete.svg" class="w-[50px] h-[50px] mt-4">
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
